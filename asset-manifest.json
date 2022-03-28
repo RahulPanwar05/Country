@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Country/static/css/main.291a51e1.css",
+    "main.js": "/Country/static/js/main.414bc8c5.js",
+    "static/media/Bhutan.png": "/Country/static/media/Bhutan.1fe0626f03ed3c6808e1.png",
+    "static/media/India.jpg": "/Country/static/media/India.e94cb61978f83835e798.jpg",
+    "index.html": "/Country/index.html",
+    "main.291a51e1.css.map": "/Country/static/css/main.291a51e1.css.map",
+    "main.414bc8c5.js.map": "/Country/static/js/main.414bc8c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.291a51e1.css",
+    "static/js/main.414bc8c5.js"
+  ]
+}
