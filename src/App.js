@@ -2,9 +2,16 @@ import Header from './MyComponent/Header'
 import Footer from './MyComponent/Footer'
 import Country from './MyComponent/Country'
 import img1 from './image/India.jpg'
+import img2 from './image/Nepal.png'
+import img3 from './image/Bhutan.png'
+import img4 from './image/Shrilanka.png'
+
+
 import React,{useState} from 'react' 
 import AddCountry from './MyComponent/AddCountry'
+
 const App = () => {
+
   const onDelete=(sanjay)=>{
     console.log( "i am ondelete of country",sanjay)
   
@@ -12,6 +19,7 @@ const App = () => {
        return e!==sanjay;
   }));
 }
+
 const addCountry=(name,code,flag)=>{
   console.log('i am adding this to country',name,code,flag)
   let sno=country[country.length-1].sno+1;
@@ -28,19 +36,21 @@ const addCountry=(name,code,flag)=>{
     {
       sno:1,
       name:"India",
-      phncuode:91,
-      flagurl:img1
+      code:91,
+      flag:img1
 
     },
     {
       sno:2,
       name:"Nepal",
-      phncode:92
+      code:997,
+      flag:img2
     },
     {
       sno:3,
-      name:"bhutan",
-      phncode:97
+      name:"Bhutan",
+      code:975,
+      flag:img3
     },
   ])
   return (

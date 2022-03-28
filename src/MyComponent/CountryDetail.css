@@ -1,0 +1,29 @@
+.country-detail {
+    border: 2px solid #808080;
+    background-color: #f70fbd;
+    box-shadow: 10px 20px 10px palevioletred;
+    border-radius: 20px;
+    padding: 1.2rem;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;         
+    }
+    .name{
+      font-size:30px;
+      font-weight: bolder;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .code{
+        font-size:30px;
+      font-weight: bolder;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .sno{
+      font-size:30px;
+      font-weight: bolder;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    

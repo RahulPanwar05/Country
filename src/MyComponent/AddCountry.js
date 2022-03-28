@@ -30,7 +30,7 @@ const[flag,setFlag]=useState("");
   </div>
  <button type="submit" className="btn btn-sm btn-success">Add Country</button>
  </form>
-    </div>  
+    </div >  
   )
 }
 
